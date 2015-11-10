@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: linen;
+}
+
+header {
+  width: 100%;
+
+}
+
+h1, h2 {
+  margin: 40px auto;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #99003D;
+}
+
+.book {
+  width: 350px;
+  height: 450px;
+  margin: 0 auto;
+  
+  background: url('http://subtlepatterns.com/patterns/tweed.png') repeat;
+  border: 1px solid #336600;
+  border-radius: 0px 3px 3px 0;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.cover {
+  height: 100%;
+  width: 100%;
+  display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+  background-color: rgba(51, 102, 0, 0.4);
+  border-left: 3px solid #1A3300;
+}
+
+#btn {
+  margin: 30px auto;
+  width: 90px;
+  display: block;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 6px 4px;
+  text-align: center;
+  background-color: #99003D;
+  color: white;
+  border: none;
+}
+
+#btn:hover {
+  background-color: #009900;
+}
+
+
+.wrapper {
+  width: 98%;
+}
+
+#book-title {
+  width: 60%;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #E6B800;
+}
