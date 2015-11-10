@@ -4,6 +4,10 @@ body {
   background-color: linen;
 }
 
+button:focus {
+  outline: 0;
+}
+
 header {
   width: 100%;
 
