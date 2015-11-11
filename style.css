@@ -47,6 +47,10 @@ h1, h2 {
   border-left: 3px solid #1A3300;
 }
 
+#tweet {
+  text-align: center;
+}
+
 #btn {
   margin: 30px auto;
   width: 90px;
