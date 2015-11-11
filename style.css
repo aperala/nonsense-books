@@ -17,7 +17,7 @@ h1, h2 {
   margin: 40px auto;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  color: #99003D;
+  color: #1D0700;
 }
 
 .book {
@@ -31,6 +31,7 @@ h1, h2 {
   font-family: 'Libre Baskerville', serif;
 }
 
+/*adapted from http://hankstoever.com/posts/6-Design-a-Book-Cover-in-CSS-with-SASS*/
 .cover {
   height: 100%;
   width: 100%;
@@ -45,21 +46,27 @@ h1, h2 {
     justify-content: center;
   background-color: rgba(51, 102, 0, 0.4);
   border-left: 3px solid #1A3300;
+  box-shadow: 1px -1px 0 gainsboro,
+              2px -2px 0 #c2c2c2, 
+              3px -3px 0 darkgrey, 
+              4px -4px 0 #8f8f8f, 
+              5px -5px 0 #133c0f;
 }
 
 #tweet {
-  text-align: center;
+  text-align: right;
+  margin-right: 20px;
 }
 
 #btn {
-  margin: 30px auto;
+  margin: 30px auto 0 auto;
   width: 90px;
   display: block;
   cursor: pointer;
   border-radius: 5px;
   padding: 6px 4px;
   text-align: center;
-  background-color: #99003D;
+  background-color: #500B24;
   color: white;
   border: none;
 }
